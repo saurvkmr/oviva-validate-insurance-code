@@ -1,15 +1,14 @@
-activation-code:
-  len: 12
-  starts-with: AR,BR,CR,DR
-
 client-config:
   customer-service:
     url: https://demo.com/api
 
 insurance-provider:
-  - name: TK
-  - url: https://demo2.com/api
-  - activation-code-starting: TK
-  - name: AOG
-  - url: https://demo2.com/api
-  - activation-code-starting: AG
+  details:
+    - name: TK
+      code-len: 12
+      url: https://demo2.com/api
+      activation-code-starting: TK
+    - name: AOG
+      code-len: 12
+      url: https://demo2.com/api
+      activation-code-starting: AG
