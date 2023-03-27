@@ -1,0 +1,14 @@
+client-config:
+  customer-service:
+    url: https://demo.com/api
+
+insurance-provider:
+  details:
+    - name: TK
+      code-len: 12
+      url: https://demo2.com/api
+      activation-code-starting: TK
+    - name: AOG
+      code-len: 12
+      url: https://demo2.com/api
+      activation-code-starting: AG
